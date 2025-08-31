@@ -1,27 +1,47 @@
-<script setup lang="ts">
-import { UBadge, UButton } from '#components';
 
-</script>
 
 <template>
     <div class=" min-h-screen">
-        <div class="w-[80%] mx-auto py-24 flex items-center border-slate-300 bg-[url('/UnityMatrialImage.png')] bg-right bg-no-repeat rounded-2xl">
+        <div class="w-[80%] mx-auto py-24 my-5 flex items-center border-slate-300 bg-[url('/UnityMatrialImage.png')] bg-right bg-no-repeat rounded-2xl">
             <h1 class=" text-4xl font-medium">
                 教材一覧<br>
                 <span class="text-lg font-light">materials</span>
             </h1>
         </div>
         
-        <table class="table-auto w-[80%] mx-auto mt-4 border-collapse border-slate-400">
+        <table class="table-auto w-[80%] mx-auto mt-8 border-collapse border-slate-400">
             <tbody>
-                <tr class=" border-b border-slate-300">
-                    <td>Unityで作るゴルフゲーム</td>
-                    <td>更新:2025/08/31</td>
-                    <td>ver1.0</td>
-                    <td class="py-2"><UButton to="https://cnt.alphamirai.jp/GolfAsset1.0.0.unitypackage" icon="ic:baseline-download" color="neutral" size="sm" >ダウンロード</UButton></td>
+                <tr class=" border-b border-slate-300 my-2" v-for="(material, index) in materials" :key="index">
+                    <td class="py-4">{{ material.title }}</td>
+                    <td>更新:{{ material.updated }}</td>
+                    <td>{{ material.version }}</td>
+                    <td class="py-2"><UButton :to="material.downloadLink" icon="ic:baseline-download" color="neutral" size="sm" >ダウンロード</UButton></td>
                 </tr>
             </tbody>
 
         </table>
     </div>
 </template>
+<script lang="js">
+export default {
+  data() {
+    return {
+      materials: [
+        {
+          title: 'Unityで作るゴルフゲーム',
+          updated: '2025/08/31',
+          version: 'ver1.0',
+          downloadLink: 'https://cnt.alphamirai.jp/GolfAsset1.0.0.unitypackage'
+        },
+        {
+            title: 'Unityで作る玉転がしゲーム',
+            updated: '2025/09/01',
+            version: 'ver1.0',
+            downloadLink: 'https://obj.bronty.net/maze1.0.0.unitypackage'     
+        }
+      ]
+    }
+  }
+}
+
+</script>
