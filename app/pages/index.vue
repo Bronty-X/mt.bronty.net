@@ -4,8 +4,8 @@ import { UBadge, UButton } from '#components';
 </script>
 
 <template>
-    <div >
-        <div class="w-[80%] mx-auto py-24 flex items-center border-slate-300">
+    <div class=" min-h-screen">
+        <div class="w-[80%] mx-auto py-24 flex items-center border-slate-300 bg-[url('/UnityMatrialImage.png')] bg-right bg-no-repeat rounded-2xl">
             <h1 class=" text-4xl font-medium">
                 教材一覧<br>
                 <span class="text-lg font-light">materials</span>
@@ -16,9 +16,9 @@ import { UBadge, UButton } from '#components';
             <tbody>
                 <tr class=" border-b border-slate-300">
                     <td>Unityで作るゴルフゲーム</td>
-                    <td>2024/06/15</td>
+                    <td>更新:2025/08/31</td>
                     <td>ver1.0</td>
-                    <td><UButton to="https://cnt.alphamirai.jp/GolfAsset1.0.0.unitypackage" icon="ic:baseline-download" color="neutral" size="sm" >ダウンロード</UButton></td>
+                    <td class="py-2"><UButton to="https://cnt.alphamirai.jp/GolfAsset1.0.0.unitypackage" icon="ic:baseline-download" color="neutral" size="sm" >ダウンロード</UButton></td>
                 </tr>
             </tbody>
 
