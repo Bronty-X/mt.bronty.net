@@ -46,6 +46,12 @@ export default {
             updated: '2025/09/01',
             version: 'ver1.0',
             downloadLink: 'https://obj.bronty.net/maze1.0.0.unitypackage'     
+        },
+        {
+            title:'Unityでつくるパチンコゲーム',
+            updated: '2025/11/21',
+            version: 'ver1.0',
+            downloadLink: 'https://obj.bronty.net/Pachinko1.0.0.unitypackage'
         }
       ]
     }
