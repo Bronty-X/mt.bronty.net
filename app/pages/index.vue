@@ -52,6 +52,12 @@ export default {
             updated: '2025/11/21',
             version: 'ver1.0',
             downloadLink: 'https://obj.bronty.net/Pachinko1.0.0.unitypackage'
+        },
+        {
+            title:'Unityでつくるエアホッケー',
+            updated: '2026/01/17',
+            version: 'ver1.0',
+            downloadLink: 'https://obj.bronty.net/airhockey/GameManager.cs'
         }
       ]
     }
