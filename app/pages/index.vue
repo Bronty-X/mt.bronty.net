@@ -58,6 +58,12 @@ export default {
             updated: '2026/01/17',
             version: 'ver1.0',
             downloadLink: 'https://obj.bronty.net/airhockey/GameManager.cs'
+        },
+        {
+            title:'Unityでつくるエアホッケー2',
+            updated: '2026/02/07',
+            version: 'ver1.0',
+            downloadLink: 'https://obj.bronty.net/airhockey/AirHockey%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC.zip'
         }
       ]
     }
