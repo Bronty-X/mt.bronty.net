@@ -69,7 +69,7 @@ export default {
             title:"Unityでつくるエアホッケー3",
             updated:"2025/03/07",
             version:"ver1.0",
-            downloadlink:"https://obj.bronty.net/airhockey/AirHockeyV3.unitypackage"
+            downloadLink:"https://obj.bronty.net/airhockey/AirHockeyV3.unitypackage"
         }
       ]
     }
