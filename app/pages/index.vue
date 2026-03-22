@@ -70,6 +70,12 @@ export default {
             updated:"2025/03/07",
             version:"ver1.0",
             downloadLink:"https://obj.bronty.net/airhockey/AirHockeyV3.unitypackage"
+        },
+        {
+            title:"Unityで円周率を計算してみよう",
+            updated:"2029/03/22",
+            version:"ver1.0",
+            downloadLink:"https://obj.bronty.net/UnityPi.unitypackage"
         }
       ]
     }
