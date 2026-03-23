@@ -9,7 +9,7 @@
             </h1>
         </div>
         
-        <table class="table-auto w-[80%] mx-auto mt-8 border-collapse border-slate-400">
+        <table class="table-auto w-[80%] mx-auto my-8 border-collapse border-slate-400">
             <thead>
                 <tr class=" border-b border-slate-300">
                     <th class="text-left py-4">タイトル</th>
@@ -73,7 +73,7 @@ export default {
         },
         {
             title:"Unityで円周率を計算してみよう",
-            updated:"2029/03/22",
+            updated:"2026/03/22",
             version:"ver1.0",
             downloadLink:"https://obj.bronty.net/UnityPi.unitypackage"
         }
