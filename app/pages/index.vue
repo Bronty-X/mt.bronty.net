@@ -76,6 +76,12 @@ export default {
             updated:"2026/03/22",
             version:"ver1.0",
             downloadLink:"https://obj.bronty.net/UnityPi.unitypackage"
+        },
+        {
+            title:"Google Colaboratoryを使って円周率を計算してみよう!",
+            uupdated:"2026/04/18",
+            version:"ver1.0",
+            downloadLink:"https://colab.research.google.com/drive/18N24PgCxPj8xSaHhT2CNGg0WB-NgdWUH?usp=sharing"
         }
       ]
     }
