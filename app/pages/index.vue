@@ -82,6 +82,13 @@ export default {
             uupdated:"2026/04/18",
             version:"ver1.0",
             downloadLink:"https://colab.research.google.com/drive/18N24PgCxPj8xSaHhT2CNGg0WB-NgdWUH?usp=sharing"
+        },
+        {
+            title:"Unityでゴルフを作ろ改良版",
+            updated:"2026/05/15",
+            version:"ver1.0",
+            downloadLink:"https://obj.bronty.net/golf1.0.2.unitypackage"
+
         }
       ]
     }
